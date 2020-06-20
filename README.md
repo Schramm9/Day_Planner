@@ -1,2 +1,3 @@
 # Day_Planner
-Day planning application
+Simple-Day planning application
+
