@@ -23,8 +23,6 @@
   </head>
 
   <body>
-    <!--https://www.webfx.com/blog/web-design/javascript-dates-moment-js/-->
-
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -34,10 +32,12 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+
       <div class="row time-block" id="txt-9">
         <div class="col-1 hour">
           9am
         </div>
+        <!-- description of mtg (meeting) or event occurring at 9am -->
         <textarea class="col-10 description"> </textarea>
         <button class="saveBtn col-1">
           <i class="fas fa-save"></i>
@@ -47,6 +47,7 @@
         <div class="col-1 hour">
           10am
         </div>
+        <!-- description of mtg (meeting) or event occurring at 10am, etc. until 5pm -->
         <textarea class="col-10 description"> </textarea>
         <button class="saveBtn col-1">
           <i class="fas fa-save"></i>
